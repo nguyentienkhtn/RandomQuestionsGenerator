@@ -22,7 +22,8 @@ def main():
     # st2 = "A. Hôm nay trời xám xịt"
     # print(check_if_a_choice(st2))
     # print(check_if_a_choice(st1))
-    questions = {}
+    question = {}
+    questions = []
     file = open(r"testRandom.txt",encoding='utf-8')
     line = file.readline()
     question_text = ''
@@ -37,7 +38,8 @@ def main():
         else: # it's an answer
             answer = line
         if len(choices) == number_of_choices and answer != '':
-            questions[question_text] = [choices, answer]
+            question[question_text] = [choices, answer]
+            questions.append(question)
             question_text = ''
             choices = []
             answer = ''
