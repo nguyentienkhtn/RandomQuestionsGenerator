@@ -1,4 +1,5 @@
 import re
+import random
 question_choice_format = '[A-Z]. '
 number_of_choices = 4
 
@@ -40,12 +41,18 @@ def main():
         if len(choices) == number_of_choices and answer != '':
             question[question_text] = [choices, answer]
             questions.append(question)
+            question = {}
             question_text = ''
             choices = []
             answer = ''
 
         line = file.readline()
     print(questions)
-
+    random.shuffle(questions)
+    print(questions)
 
 main()
+# mylist = ["apple", "banana", "cherry"]
+# random.shuffle(mylist)
+#
+# print(mylist)
