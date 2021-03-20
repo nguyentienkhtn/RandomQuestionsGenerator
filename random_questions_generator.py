@@ -49,7 +49,9 @@ def main():
     random.shuffle(questions)
     print(questions)
     for question_temp in questions:
+        print(type(question_temp.values()))
         random.shuffle(question_temp.values())
+        print("hello", question_temp)
 
     print(questions)
 
