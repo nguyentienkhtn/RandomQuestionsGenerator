@@ -1,6 +1,6 @@
 import re
 import random
-question_choice_format = '[A-Z]. '
+
 number_of_choices = 4
 
 
@@ -8,8 +8,6 @@ def check_if_a_choice(string):
     """
     check if a string is a choice or not
     :param string: the string to check
-
-
     """
     if string[0].isupper() and string[1] == "." \
             and (string[2] == ' ' or string[2] == '\t'):
@@ -50,6 +48,7 @@ def main():
     print(questions)
     random.shuffle(questions)
     print(questions)
+
 
 main()
 # mylist = ["apple", "banana", "cherry"]
