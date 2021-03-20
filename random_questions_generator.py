@@ -33,11 +33,11 @@ def main():
                 (not(check_if_a_choice(line))): # a question text
             question_text = line
         elif check_if_a_choice(line): # it's a choice
-            choices.append(line)
+            choices.append(line[2:])
         else: # it's an answer
             answer = line
         if len(choices) == number_of_choices and answer != '':
-            question[question_text] = [choices, answer]
+            question["Câu hỏi: " + question_text] = [choices]
             questions.append(question)
             question = {}
             question_text = ''
@@ -47,6 +47,10 @@ def main():
         line = file.readline()
     print(questions)
     random.shuffle(questions)
+    print(questions)
+    for question_temp in questions:
+        random.shuffle(question_temp.values())
+
     print(questions)
 
 
