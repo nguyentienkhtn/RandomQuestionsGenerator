@@ -52,7 +52,7 @@ def main():
     with codecs.open("result.txt", "w", "utf-8-sig") as temp:
         for question_temp in questions:
             '''
-            shuffle choices
+            shuffle choices and write shuffled items to file
             '''
             answers = list(question_temp.values())[0]
             random.shuffle(answers)
