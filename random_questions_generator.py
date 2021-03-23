@@ -1,6 +1,6 @@
 import re
 import random
-
+import codecs
 number_of_choices = 4
 
 
@@ -29,15 +29,15 @@ def main():
     choices = []
     answer = ''
     while line != '':
-        if (not(line.startswith('ANSWER'))) and \
-                (not(check_if_a_choice(line))): # a question text
+        if (not (line.startswith('ANSWER'))) and \
+                (not (check_if_a_choice(line))):  # a question text
             question_text = line
-        elif check_if_a_choice(line): # it's a choice
+        elif check_if_a_choice(line):  # it's a choice
             choices.append(line[3:])
-        else: # it's an answer
+        else:  # it's an answer
             answer = line
-        if len(choices) == number_of_choices and answer != '':
-            question["Câu hỏi: " + question_text] = choices
+        if len(choices) >= 2 and answer != '':
+            question[question_text] = choices
             questions.append(question)
             question = {}
             question_text = ''
@@ -45,17 +45,25 @@ def main():
             answer = ''
 
         line = file.readline()
-    print("original:", questions)
+    # print("original:", questions)
     random.shuffle(questions)
     # print(questions)
-    for question_temp in questions:
-        '''
-        shuffle choices
-        '''
-        answers = list(question_temp.values())[0]
-        random.shuffle(answers)
+    # f = open(r"result.txt", encoding='utf-8')
+    with codecs.open("result.txt", "w", "utf-8-sig") as temp:
+        for question_temp in questions:
+            '''
+            shuffle choices
+            '''
+            answers = list(question_temp.values())[0]
+            random.shuffle(answers)
+            print(type(list(question_temp.keys())[0]))
+            # write answer text
+            temp.write(list(question_temp.keys())[0])
+            for t in answers:
+                temp.write(t)
+            temp.write('\n')
 
-    print(questions)
+    # print(questions)
 
 
 main()

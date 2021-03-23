@@ -4,33 +4,292 @@ B. Hôm nay xui quá
 C. 3 + 6 = 10
 D. x + y ≠ 10
 ANSWER: C	
+
 Một mệnh đề được định nghĩa là:
 A. Một phát biểu có thể đúng hoặc sai nhưng không thể vừa đúng vừa sai
 B. Một câu khẳng định
 C. Một câu hỏi
 D. Một phát biểu không thể xác định tính đúng sai
 ANSWER: A
+
 Giá trị đúng của một mệnh đề, nếu mệnh đề đó đúng được ký hiệu là?
 A.	T
 B.	F
 C.	Đ
 D.	S
 ANSWER: A
+
 Giá trị sai của một mệnh đề, nếu mệnh đề đó sai được ký hiệu là?
 A.	F
 B.	T
 C.	Đ
 D.	S
 ANSWER: A
+
 Cho mệnh đề p, mệnh đề “Đây không phải là trường hợp p” là mệnh đề:
 A.	Phủ định của p
 B.	Khẳng định của p
 C.	Đối ngẫu của p
 D.	Loại trừ của p
 ANSWER: A
+
 Cho mệnh đề “Máy tính của tôi không chạy hệ điều hành Linux”, phủ định của mệnh đề này là mệnh đề nào sau đây?
 A.	Máy tính của tôi hạy hệ điều hành Linux
 B.	Tôi không có máy tính
 C.	Máy tính của tôi chạy hệ điều hành Windows
 D.	Máy tính tôi bị hư rồi
+ANSWER: A
+
+Nếu p là một mệnh đề đúng, phủ định của p là mệnh đề?
+A.	Sai
+B.	Đúng
+C.	Không xác định
+D.	Vừa đúng vừa sai
+ANSWER: A
+
+Cho p và q là hai mệnh đề, hội của p và q là một mệnh đề
+A.	Đúng khi và chỉ khi p và q cùng đúng, sai trong tất cả các trường hợp còn lại
+B.	Sai khi p và q cùng sai, đúng trong tất cả các trường hợp còn lại
+C.	Không có tính đúng sai
+D.	Không xác định được giá trị chân lý
+ANSWER: A
+
+Hội của 2 mệnh đề p và q được ký hiệu là?
+A.	p v q
+B.	p x q
+C.	p ˄ q
+D.	p ! q
+ANSWER: A
+
+Hội của 2 mệnh đề p và q là mệnh đề
+A.	p và q
+B.	p hoặc q
+C.	p loại trừ q
+D.	p không q
+ANSWER: A
+
+Bảng chân lý của một mệnh đề phức hợp được tạo ra từ 2 mệnh đề sẽ có ít nhất bao nhiêu dòng?
+A.	4
+B.	2
+C.	3
+D.	1
+ANSWER: A
+
+Mệnh đề phức hợp “p hoặc q” còn được gọi là mệnh đề
+A.	Tuyển
+B.	Hội
+C.	Tuyển loại
+D.	Mâu thuẫn
+ANSWER: A
+
+Cho p và q là 2 mệnh đề, mệnh đề được tạo thành bởi p và q chỉ sai khi cả p và q đều sai và đúng trong tất cả các trường họp còn lại được gọi là mệnh đề
+A.	Tuyển của p và q
+B.	Hội của p và q
+C.	Tuyển loại của p và q
+D.	Tất cả đều sai
+ANSWER: A
+
+Mệnh đề tuyển loại của p và q là mệnh đề đúng khi nào (chọn đáp án đầy đủ nhất)?
+A.	Khi p đúng và q sai hoặc p sai và q đúng
+B.	Khi p và q đều đúng
+C.	Khi p và q đều sai
+D.	Khi p và q có cùng giá trị chân lý
+ANSWER: A
+
+Cho m là mệnh đề tuyển loại của mệnh đề p và mệnh đề q. Mệnh đề m đúng khi nào (chọn đáp án đầy đủ nhất)?
+A.	Khi p và q đều đúng hoặc đều sai
+B.	Khi p đúng và q sai hoặc p sai và q đúng
+C.	Khi p đều sai
+D.	Khi p và q đều đúng
+ANSWER: A
+
+Mệnh đề p q là mệnh đề
+A.	Tuyển loại của p và q
+B.	Tuyển của p và q
+C.	Tổng của p và q
+D.	Hội loại của p và q
+ANSWER: A
+
+Mệnh đề p -> q được gọi là mệnh đề
+A.	Điều kiện
+B.	Mâu thuẫn
+C.	Nghĩa là
+D.	Nghịch đảo
+ANSWER: A
+
+Mệnh đề p -> q sai khi nào?
+A.	p đúng và q sai
+B.	p sai và q đúng
+C.	p sai và q sai
+D.	p đúng và q đúng
+ANSWER: A
+
+Trong mệnh đề p -> q, mệnh đề p được gọi là mệnh đề gì?
+A.	Giả thiết
+B.	Kết luận
+C.	Kéo theo
+D.	Điều kiện
+ANSWER: A
+
+Trong mệnh đề p -> q, mệnh đề q được gọi là mệnh đề gì?
+A.	Kết luận
+B.	Giả thiết
+C.	Kéo theo
+D.	Điều kiện
+ANSWER: A
+
+Mệnh đề p -> q có thể được diễn đạt như thế nào?
+A.	Nếu p thì q
+B.	Nếu q thì p
+C.	p có thì q tồn tại
+D.	p tương đương q
+ANSWER: A
+
+Cho mệnh đề p -> q, mệnh đề q -> p là mệnh đề
+A.	Đảo của mệnh đề p -> q
+B.	Phản đảo mệnh đề p -> q
+C.	Nghịch đảo mệnh đề p -> q
+D.	Tương đương mệnh đề p -> q
+ANSWER: A
+
+Mệnh đề (not)q -> (not)p là mệnh đề
+A.	Phản đảo của mệnh đề p -> q
+B.	Đảo của mệnh đề p -> q
+C.	Nghịch đảo của mệnh đề p -> q
+D.	Tương đương của mệnh đề p -> q
+ANSWER: A
+
+Mệnh đề p <-> q đúng khi nào (chọn đáp án đầy đủ nhất)?
+A.	p và q có cùng giá trị chân lý
+B.	p và q khác giá trị chân lý
+C.	p và q có giá trị chân lý khác nhau
+D.	p và q đều đúng
+ANSWER: A
+
+Mệnh đề p <-> q có thể được diễn đạt như thế nào
+A.	p nếu và chỉ nếu q
+B.	nếu p thì q
+C.	nếu q thì p
+D.	nếu p và q
+ANSWER: A
+
+Cho p, q, và s là các mệnh đề “Bạn được lái xe”, “Bạn trên 18 tuổi”, “Bạn cao trên 1.6m”. Phát biểu “Bạn không được lái xe nếu bạn cao dưới 1.6m trừ khi bạn trên 18 tuổi” có thể được biểu diễn như thế nào?
+A.	(q ˄ (not)s) -> p
+B.	(p ˄ (not)s) -> q
+C.	(p ˄ (not)s) -> p
+D.	(s ˄ (not)p) -> q
+ANSWER: A
+
+Phép tuyển lại của 2 bit có thể dùng ký hiệu gì?
+A.	XOR
+B.	OR
+C.	AND
+D.	NOR
+ANSWER: A
+
+Các mệnh đề p và q được gọi là tương đương logic nào (chọn đáp án đầy đủ nhất)?
+A.	p <-> q là hằng đúng
+B.	p đúng và q đúng
+C.	p sai và q đúng
+D.	p sai và q sai
+ANSWER: A
+
+Hằng đúng là gì?
+A.	Là một mệnh đề luôn đúng
+B.	Là một mệnh đề luôn sai
+C.	Là một mệnh đề
+D.	Là một câu nói triết lý
+ANSWER: A
+
+Để chứng minh 2 mệnh đề tương đương logic, chúng ta có thể sử dụng bảng giá trị chân lý
+A.	Đúng
+B.	Sai
+ANSWER: A
+
+Các mệnh đề p˅(q˄r)và (p˅q)˄(p˅r) có tương đương logic?
+A.	Có
+B.	Không
+ANSWER: A
+
+Hằng đúng p -> (p ∨ q) là cơ sở của luật suy luận nào?
+A.	Luật cộng
+B.	Luật tách rời
+C.	Luật tuyển chọn
+D.	Luật tam đoạn luận
+ANSWER: A
+
+Hằng đúng (𝒑 ∧ 𝒒) -> 𝒑 là cơ sở của luật suy luận nào?
+A.	Rút gọn
+B.	Cộng
+C.	Tách rời
+D.	Tam đoạn luận
+ANSWER: A
+
+Một mệnh đề suy luận mà không dựa trên các hằng đúng gọi là gì?
+A.	Ngụy biện
+B.	Suy đoán
+C.	Lập luận
+D.	Kết luận
+ANSWER: A
+
+Chứng minh mệnh đề kéo theo p -> q bằng cách xuất phát từ p đúng, chỉ ra q cũng đúng được gọi là cách chứng minh gì?
+A.	Trực tiếp
+B.	Gián tiếp
+C.	Suy luận
+D.	Phản đảo
+ANSWER: A
+
+Chứng minh mệnh đề kéo theo (𝒑 -> 𝒒) bằng cách chứng minh mệnh đề ((not)q→(not)p) là đúng được gọi là cách chứng minh gì?
+A.	Gián tiếp
+B.	Trực tiếp
+C.	Suy luận
+D.	Phản đảo
+ANSWER: A
+
+Chứng minh mệnh đề p là đúng bằng cách chỉ ra (not)p là sai được gọi là cách chứng minh gì?
+A.	Phản chứng
+B.	Gián tiếp
+C.	Nghịch đảo
+D.	Phản đảo
+ANSWER: A
+
+Tập hợp {0} là tập rỗng
+A.	Sai
+B.	Đúng
+ANSWER: A
+
+Tập rỗng là con của tất cả các tập hợp
+A.	Đúng
+B.	Sai
+ANSWER: A
+
+Tập hợp X = {x | x là số tự nhiên nhỏ hơn 0} là tập rỗng
+A.	Đúng
+B.	Sai
+ANSWER: A
+
+Phép so sánh {8, 7, 6, 5} = {6, 5, 8, 7} là đúng hay sai?
+A.	Đúng
+B.	Sai
+ANSWER: A
+
+Cho M = {Các sinh viên học ngành Lập trình máy tính trường Cao đẳng Saigon}, N = {Tất cả sinh viên theo học cao đẳng hoặc đại học trên cả nước}
+A.	M là tập con của N
+B.	N là tập con của M
+C.	Các đáp án đều sai
+D.	M và N không có mối liên hệ
+ANSWER: A
+
+Cho A = {1, 2, 4, 5, 7} và B = {2, 4, 5, 7, 9, 11} tìm A∩B?
+A.	A ∩ B = {2, 4, 7, 5}
+B.	A ∩ B = {1, 2, 4, 5, 7}
+C.	A ∩ B = {2, 4, 5, 7, 9}
+D.	A ∩ B = {1, 2, 4, 5, 7}
+ANSWER: A
+
+Cho A và B là các tập hợp, một tập hợp chứa các phần tử thuộc A, thuộc B hoặc thuộc cả hai tập hợp được gọi là gì?
+A.	Hợp của A và B
+B.	Giao của A và B
+C.	Tổng của A và B
+D.	Hiệu của A và B
 ANSWER: A
