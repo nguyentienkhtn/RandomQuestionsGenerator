@@ -9,25 +9,25 @@ A. Một phát biểu có thể đúng hoặc sai nhưng không thể vừa đú
 B. Một câu khẳng định
 C. Một câu hỏi
 D. Một phát biểu không thể xác định tính đúng sai
-ANSWER: A	
+ANSWER: A
 Giá trị đúng của một mệnh đề, nếu mệnh đề đó đúng được ký hiệu là?
 A.	T
 B.	F
 C.	Đ
 D.	S
-ANSWER: A	
+ANSWER: A
 Giá trị sai của một mệnh đề, nếu mệnh đề đó sai được ký hiệu là?
 A.	F
 B.	T
 C.	Đ
 D.	S
-ANSWER: A	
+ANSWER: A
 Cho mệnh đề p, mệnh đề “Đây không phải là trường hợp p” là mệnh đề:
 A.	Phủ định của p
 B.	Khẳng định của p
 C.	Đối ngẫu của p
 D.	Loại trừ của p
-ANSWER: A	
+ANSWER: A
 Cho mệnh đề “Máy tính của tôi không chạy hệ điều hành Linux”, phủ định của mệnh đề này là mệnh đề nào sau đây?
 A.	Máy tính của tôi hạy hệ điều hành Linux
 B.	Tôi không có máy tính

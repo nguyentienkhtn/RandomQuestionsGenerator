@@ -22,8 +22,8 @@ def main():
     # print(check_if_a_choice(st2))
     # print(check_if_a_choice(st1))
     question = {}
-    questions = []
-    file = open(r"testRandom.txt",encoding='utf-8')
+    questions = [] # list of dictionaries
+    file = open(r"testRandom.txt", encoding='utf-8')
     line = file.readline()
     question_text = ''
     choices = []
@@ -33,11 +33,11 @@ def main():
                 (not(check_if_a_choice(line))): # a question text
             question_text = line
         elif check_if_a_choice(line): # it's a choice
-            choices.append(line[2:])
+            choices.append(line[3:])
         else: # it's an answer
             answer = line
         if len(choices) == number_of_choices and answer != '':
-            question["Câu hỏi: " + question_text] = [choices]
+            question["Câu hỏi: " + question_text] = choices
             questions.append(question)
             question = {}
             question_text = ''
@@ -45,19 +45,17 @@ def main():
             answer = ''
 
         line = file.readline()
-    print(questions)
+    print("original:", questions)
     random.shuffle(questions)
-    print(questions)
+    # print(questions)
     for question_temp in questions:
-        print(type(question_temp.values()))
-        random.shuffle(question_temp.values())
-        print("hello", question_temp)
+        '''
+        shuffle choices
+        '''
+        answers = list(question_temp.values())[0]
+        random.shuffle(answers)
 
     print(questions)
 
 
 main()
-# mylist = ["apple", "banana", "cherry"]
-# random.shuffle(mylist)
-#
-# print(mylist)
