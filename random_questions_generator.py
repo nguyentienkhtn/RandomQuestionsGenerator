@@ -1,7 +1,8 @@
 import re
 import random
 import codecs
-number_of_choices = 4
+
+number_of_choices = 2
 
 
 def check_if_a_choice(string):
@@ -22,8 +23,8 @@ def main():
     # print(check_if_a_choice(st2))
     # print(check_if_a_choice(st1))
     question = {}
-    questions = [] # list of dictionaries
-    file = open(r"testRandom.txt", encoding='utf-8')
+    questions = []  # list of dictionaries
+    file = open(r"DinhKy.txt", encoding='utf-8')
     line = file.readline()
     question_text = ''
     choices = []
@@ -36,7 +37,7 @@ def main():
             choices.append(line[3:])
         else:  # it's an answer
             answer = line
-        if len(choices) >= 2 and answer != '':
+        if len(choices) >= number_of_choices and answer != '':
             question[question_text] = choices
             questions.append(question)
             question = {}
@@ -45,7 +46,7 @@ def main():
             answer = ''
 
         line = file.readline()
-    # print("original:", questions)
+    print("number of questions read:", len(questions))
     random.shuffle(questions)
     # print(questions)
     # f = open(r"result.txt", encoding='utf-8')
@@ -56,12 +57,12 @@ def main():
             '''
             answers = list(question_temp.values())[0]
             random.shuffle(answers)
-            print(type(list(question_temp.keys())[0]))
             # write answer text
             temp.write(list(question_temp.keys())[0])
             for t in answers:
                 temp.write(t)
             temp.write('\n')
+    print("Done!!")
 
     # print(questions)
 
